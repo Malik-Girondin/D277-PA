@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="images/favicon_img.png" type="image/png">
+</head>
+<body>
+
+<header>
+    <img src="images/Seal_of_Florida.png" alt="Florida Seal" class="resizable-image">
+    <h1>Have a question, reach out today!</h1>
+    <p>Our team will strive to respond to general inquiries within 24-48 hours during regular business hours (Monday to Friday, 9:00 AM - 5:00 PM EST).</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#cities">Cities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://www.nationsonline.org/maps/USA/Florida_map-L.jpg" target="_blank">Map</a></li>
+    </ul>
+</nav>
+
+<form id="email-form">
+    <div>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+    </div>
+    <div>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+    </div>
+    <div>
+        <label for="mail">Email Address:</label>
+        <input type="email" id="mail" name="mail" placeholder="Enter your email address" required>
+    </div>
+    <div>
+        <label for="confirm-mail">Confirm Email Address:</label>
+        <input type="email" id="confirm-mail" name="confirm-mail" placeholder="Confirm your email address" required>
+    </div>
+    <div>
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" placeholder="Ask your question here" required></textarea>
+    </div>
+    <div id="email-match-text"></div>
+    <button type="submit">Submit</button>
+</form>
+
+<section class="center-it">
+    <h2>🌴 Visit These Locations Below in Florida! 🌴</h2>
+</section>
+
+<aside class="social-sidebar" id="sidebar">
+    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+</aside>
+
+<div class="container">
+    <div class="box" id="naples-sunset">
+        <img src="images/naples_sunset.avif" alt="Naple Sunset">
+        Hover for more information!
+        <div class="overlay">
+            <div class="overlay-content">
+                <h2>Naples Sunset</h2>
+                <p>A beautiful sunset in Naples, Florida.</p>
+                <a href="https://www.visitflorida.com/places-to-go/southwest/naples/" class="button" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="box" id="palm-tree">
+        <img src="images/palm_tree.avif" alt="Palm Trees">
+        Hover for more information!
+        <div class="overlay">
+            <div class="overlay-content">
+                <h2>Palm Trees</h2>
+                <p>Tall palm trees swaying in the breeze.</p>
+                <a href="https://www.amli.com/blog/popular-palm-tree-varieties-in-florida" class="button" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="box" id="florida-beach">
+        <img src="images/florida_beach.webp" alt="Florida Beach">
+        Hover for more information!
+        <div class="overlay">
+            <div class="overlay-content">
+                <h2>Florida Beach</h2>
+                <p>A sandy beach with clear blue waters.</p>
+                <a href="https://www.visitflorida.com/beaches/popular/" class="button" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <p>&copy; 2024. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
